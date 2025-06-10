@@ -1,0 +1,33 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "Namaste React by Pavithra",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavithraSowndram/namaste-react.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Pavithra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PavithraSowndram/namaste-react/issues"
+  },
+  "homepage": "https://github.com/PavithraSowndram/namaste-react#readme",
+  "devDependencies": {
+    "parcel": "^2.15.2"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
