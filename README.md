@@ -1,6 +1,7 @@
-# Namaste React 
+# Namaste React
 
 # Parcel
+
 - Dev Build
 - Local server
 - Hot Module Replacement = HMR (It automatically detects the changes while saving)
@@ -16,3 +17,10 @@
 - Diagnostic
 - Error handling
 - Tree shaking
+
+# React Hooks
+
+(Normal Js utility functions)
+
+- useState - For powerful state variable
+- useEffect

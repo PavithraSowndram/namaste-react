@@ -1,6 +1,67 @@
-.heading {
-    color: red;
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
 }
-.container {
-    color:bisque;
+.logo {
+  width: 100px;
+  height: 100px;
+}
+.nav-items > ul {
+  display: flex;
+  padding: 0px 20px;
+  list-style: none;
+}
+.nav-items > ul > li {
+  padding: 10px;
+  margin: 10px;
+}
+.search {
+  padding: 10px 0px;
+}
+.res-card {
+  padding: 5px;
+  width: 194px;
+  background-color: #f0f0f0;
+  margin: 5px;
+}
+.res-card:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+.res-logo {
+  width: inherit;
+  height: 200px;
+  object-fit: cover; /* or scale-down */
+  border-radius: 10px;
+}
+
+.res-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.filter-btn,
+.search-btn,
+.search-box {
+  margin: 10px 0px;
+  padding: 5px;
+}
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.shimmer-card {
+  margin: 10px;
+  width: 194px;
+  height: 500px;
+  background-color: #f0f0f0;
+}
+.search-container .search-btn {
+  margin: 0px 10px;
+}
+.filter-container {
+  margin: 10px 0px;
+  display: flex;
+  flex-wrap: wrap;
 }
